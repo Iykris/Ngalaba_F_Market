@@ -299,12 +299,12 @@ footer {
 	position: absolute;
 	background-color: #f9f9f9;
 	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-	left: 100px;
-	width: 1200px;
+	left: 0px;
+	width: 100%;
 	max-height: 350px;
 	z-index: 999999;
 	overflow: unset;
-	column-count: 5;
+	column-count: 6;
 }
 #menu-item {
 	width: 100%;
