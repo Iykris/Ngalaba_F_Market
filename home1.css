@@ -1,0 +1,285 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: #fbfbfb;
+}
+
+.container {
+	height: 800px;
+	width: 100%;
+	background: linear-gradient(rgba(28, 28, 28, 0.6), rgba(28, 28, 28, 0.6)),
+		url("./images/background-image.jpg") no-repeat center top fixed;
+	background-size: cover;
+}
+.header {
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+	width: 100%;
+	height: 6vw;
+}
+
+.logo {
+	padding: 0px 20px;
+}
+.navigation {
+	display: flex;
+	flex-direction: row;
+	margin: auto 35%;
+	align-items: center;
+	width: 100%;
+}
+
+.request {
+	height: 20%;
+	width: 100%;
+	padding: 1%;
+	background: #ffa500;
+	border: 2px solid #ffa500;
+	border-radius: 5px;
+	color: #fff;
+	margin-left: auto;
+	display: flex;
+}
+.request:hover {
+	cursor: pointer;
+	background: #82bf4c;
+	border: 2px solid #ffa500;
+	transition: 1 sec;
+}
+#nav {
+	overflow: hidden;
+	background: #040405;
+	border-bottom: 5px solid #82bf4c;
+	width: 100%;
+	height: 80px;
+}
+.nav {
+	display: flex;
+	list-style: none;
+	justify-content: flex-end;
+	padding-left: 30px;;
+	/* justify-content: space-around; */
+}
+ul {
+	margin-bottom: none;
+}
+/* .nav a {
+	text-decoration: none;
+	display: block;
+	padding: 1em;
+} */
+nav div ul li a {
+	display: block;
+	color: #ffffff;
+	position: relative;
+	padding: 21px 14px;
+	text-decoration: none;
+}
+.sub-menu li {
+	display: inline-block;
+	position: absolute;
+}
+.overlay {
+	padding: 20px;
+	margin-bottom: ;
+}
+.hero {
+	/* background: url("./nigeria-economy.jpg") no-repeat center top fixed;
+	background-size: cover; */
+	display: flex;
+	margin: 0 auto;
+	width: 60%;
+	flex-direction: column;
+}
+.slogan {
+	color: #ffffff;
+	text-align: center;
+	padding: 50px;
+}
+.banner {
+	display: flex;
+	position: relative;
+	align-items: center;
+	/* justify-content: center; */
+	justify-content: space-around;
+}
+.map {
+	border: 8px solid #82bf4c;
+	background-color: #fff;
+	padding: 15px;
+	width: 60%;
+	height: 27vw;
+	text-align: center;
+}
+.nig-map {
+	width: 80%;
+	height: 80%;
+	margin-top: 1.1vw;
+}
+
+.map-button {
+	color: #ffffff;/*
+	display: flex;
+	flex-direction: row;
+	justify-items: center;
+*/
+}
+.btn:hover {
+	cursor: pointer;
+	background: #82bf4c;
+	color: #ffffff;
+	border: 2px solid #dfeaec;
+	transition: 1 sec;
+	padding: 2px;
+}
+.metric {
+	color: #ffffff;
+	font-size: 	35px;
+}
+
+.app {
+	padding-left: 1.5vw;
+}
+.mobile-app {
+	width: 130%;
+	height: 120%;
+}
+.figure {
+	color: #82bf4c;
+}
+.mini-header div {
+	border:0px  solid;
+	padding: 10px;
+	margin: 0px;
+}
+/* # line and line2 represents the 
+line under the Get and Featured heading*/
+#line {
+	width: 300px;
+	height: 1px;
+	background-color: #82bf4c;
+}
+#line2 {
+	width: 600px;
+	height: 1px;
+	background-color: #82bf4c;
+}
+
+.mini-header {
+	display: flex;
+	flex-direction: row;
+	margin: 0 15%;
+}
+.mini1 { 
+	flex: 1;
+	text-align: center;
+	margin: 0px;
+}
+.mini2 {
+	flex: 2;
+	text-align: center;
+	width: 600px;
+	margin: 0
+}
+.feature {
+	color:#ffa500
+}
+.firstslide {
+	display: flex;
+	flex-direction: row;
+	width: 600px;
+	padding-top: 0px;
+}
+/*text area still needs much adjustment for things to fit in*/
+div .textarea {
+	width: 290px;
+	height: 142px;
+	background-color: #ffffff;
+	border: 1px #4b412a solid;
+	margin-right: 10px;
+	padding: 10px;
+	margin-left: 0
+}
+.textarea strong {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: #4b412a;
+
+	
+}
+.video-frame {
+	margin-top: 6%;
+	
+	
+}
+.view-details {
+	position: relative;
+	justify-content: space-between;
+	display: flex;
+	flex-direction: row;
+	right: 0;
+	bottom: 0;
+	float: right;
+}
+.view-details .btn {
+	justify-content: flex-end;
+	display: flex;
+  }
+  
+.slider-content {
+	width: 100%;
+	height: 230px;
+	margin: 1% auto;
+	background: #e4e8ec;
+}
+.section1 {
+	display: flex;
+	flex-direction: row;
+	padding: 30px;
+
+	height: 300px;
+	width: 95%;
+	background-image: linear-gradient(rgba(28, 28, 28, 0.6), rgba(28, 28, 28, 0.6)),
+	url(/images/Fresh-fruits.jpg);
+}
+/* This is the class immediately after the 
+background image that covers the video 
+section and the rest.
+*/
+.section1 div {
+	padding: 20px 30px;
+	background: #dfeaec8f;
+	width: 40%;
+	height: 230px;
+	justify-content: space-around;
+	margin: 10px;
+	padding-top: 20px;
+	border-radius: 5px;
+	border: 1px #ffa500 solid;
+}
+.slider-container {
+	position: relative;
+	width: 600;
+	height: 142px;
+	transition: left 2s;
+	-webkit-transition: left 2s;
+	-moz-transition: left 2s;
+	-o-transition: left 2s;
+
+}
+
+footer {
+	padding: 20px;
+	height: 60px;;
+	position: relative;
+	left: 0;
+	bottom: 0;
+	background-color: #4b412a;
+	color: white;
+	text-align: center;
+  }
